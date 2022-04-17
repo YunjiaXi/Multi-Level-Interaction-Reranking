@@ -11,5 +11,5 @@
   "epoch_num": 30,
   "max_norm": 5,
   "save_dir": "./model/",
-  "data_dir": "./data/ad/processed/"
+  "data_dir": "./data/prm/processed/"
 }
