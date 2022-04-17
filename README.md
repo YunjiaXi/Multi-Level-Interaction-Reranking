@@ -27,7 +27,7 @@ Run re-ranker
 python run_mir.py
 ```
 
-Model parameters can be set by using a config file, and specify its file path at `--setting_path`, e.g., `python run_ranker.py --setting_path config`. The config files for the different models can be found in `example/config`. Moreover, model parameters can also be directly set from the command line. The supported parameters are listed as follows.
+Model parameters can be set by using a config file, and specify its file path at `--setting_path`, e.g., `python run_ranker.py --setting_path config`. The config files for the different models can be found in `config/ad/` and `config/prm/`. Moreover, model parameters can also be directly set from the command line. The supported parameters are listed as follows.
 
 #### Parameters of `run_init_ranker.py`
 
