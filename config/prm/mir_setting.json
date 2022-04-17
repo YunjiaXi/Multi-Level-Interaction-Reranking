@@ -1,0 +1,15 @@
+{
+  "data_set_name": "prm",
+  "initial_ranker": "DNN",
+  "lr": 2e-5,
+  "l2_reg": 1e-5,
+  "batch_size": 16,
+  "max_time_len": 30,
+  "metric_scope": [5, 10, 15, 20],
+  "eb_dim": 16,
+  "hidden_size": 64,
+  "epoch_num": 30,
+  "max_norm": 5,
+  "save_dir": "./model/",
+  "data_dir": "./data/ad/processed/"
+}
