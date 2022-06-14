@@ -57,7 +57,7 @@ def process_data(ad_feature, behavior, raw_sample, user_profile, store_dir, max_
 
             si, ei = 0, 1
             while si < tl_len:
-                while ei < tl_len and (tl[si][0] - tl[ei][0] <= 60 * 5 or tl[ei][2] == 0):
+                while ei < tl_len and (tl[si][0] - tl[ei][0] <= 60 * 5):
                     ei += 1
                 if sum(tl[si:ei][:, 2]) == 0:
                     si = ei
