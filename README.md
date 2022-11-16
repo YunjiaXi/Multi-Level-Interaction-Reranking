@@ -1,5 +1,5 @@
 # MIR
-The implementation of reranking method proposed in [Multi-Level Interaction Reranking with User Behavior History]()
+The implementation of reranking method proposed in [Multi-Level Interaction Reranking with User Behavior History](https://dl.acm.org/doi/abs/10.1145/3477495.3532026)
 
 ## Requirements
 ```
